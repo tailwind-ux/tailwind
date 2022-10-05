@@ -69,7 +69,7 @@ for (const each of searchList) {
 
 
 searchInput.addEventListener('keyup', (e)=> {
-    console.log(e.target.value);
+    // console.log(e.target.value);
 })
 
 // let searchShowlist = 
