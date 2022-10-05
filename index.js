@@ -77,7 +77,7 @@ function moveToComponent(item){
     window.scrollTo(0, arrayComponentsElements[item].offsetHeight -70)
 }
 for (let i = 0; i < searchComponent.children.length; i++) {
-    console.log(searchComponent.children[i])
+    // console.log(searchComponent.children[i])
     searchComponent.children[i].addEventListener('click', ()=>{
         console.log(789)
         moveToComponent(i)
